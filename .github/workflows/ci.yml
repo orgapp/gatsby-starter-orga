@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: 
+    branches:
       - master
 
 jobs:
@@ -22,3 +22,4 @@ jobs:
         npm run deploy
       env:
         CI: true
+        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
