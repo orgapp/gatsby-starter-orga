@@ -7,6 +7,13 @@ CLOSED: [2019-10-14 Mon 13:34]
 
 Hi, this is the content from org-mode.
 
+Here is a code block.
+
+#+begin_src javascript
+console.log(`hello world`)
+#+end_src
+
+
 * PUBLISHED Post 1
 CLOSED: [2019-10-14 Mon 19:42]
 

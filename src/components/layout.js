@@ -8,7 +8,11 @@ export default ({ children }) => {
         <pre>My Website</pre>
       </Link>
       <div style={{ display: 'flex' }}>
-        <Link to='/cv'>View My CV</Link>
+        <Link to='/cv'>
+          <button>
+            View My CV
+          </button>
+        </Link>
       </div>
       <main>
         { children }

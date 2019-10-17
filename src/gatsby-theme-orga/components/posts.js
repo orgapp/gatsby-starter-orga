@@ -21,6 +21,9 @@ export default ({ posts, prev, next }) => {
   return (
     <Layout>
       <div>
+        <h2>All Posts</h2>
+      </div>
+      <div>
         { posts.map(Post) }
       </div>
       <div style={{ display: 'flex' }}>
