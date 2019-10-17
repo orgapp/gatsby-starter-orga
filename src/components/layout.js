@@ -5,7 +5,7 @@ export default ({ children }) => {
   return (
     <div>
       <Link to='/'>
-        <pre>My Website</pre>
+        <pre>My org-mode Website</pre>
       </Link>
       <div style={{ display: 'flex' }}>
         <Link to='/cv'>
