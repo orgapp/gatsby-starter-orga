@@ -5,13 +5,14 @@ const print = o => {
   return inspect(o, false, null, false)
 }
 
-export default ({ post }) => {
+export default props => {
+  const { title, body } = props
   return (
     <Layout>
-      <h1>{ post.metadata.title }</h1>
-      <h5>metadata:</h5>
-      <pre>{ print(post.metadata) }</pre>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <h1>{ title }</h1>
+      <h5>data:</h5>
+      <pre>{ print(props) }</pre>
+      <div dangerouslySetInnerHTML={{ __html: body }} />
     </Layout>
   )
 }

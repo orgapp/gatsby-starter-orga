@@ -2,19 +2,25 @@ module.exports = {
   pathPrefix: `gatsby-starter-orga`,
   siteMetadata: {
     title: `Gatsby With Orga`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Xiaoxing Hu`,
+    description: `This barebones starter ships with org-mode support.`,
+    author: `Xiaoxing Hu <xiaoxing@huxx.org>`,
   },
   plugins: [
     {
       resolve: `gatsby-theme-orga`,
       options: {
-        // basePath: `/blog`, // if you want your content to be on a prefix
-        contentPath: `content`,
-        filter: {
+        // basePath: `/blog`, // if you want your content to be on a prefix, default is `/`
+        // contentPath: `blog`, // source of your org files, default to `content`
+        filter: { // filter of your posts, key should match metadata propperty names, default is {}
           category: `posts`,
         },
-        slug: ['blog', '$export_file_name'],
+        // pagination: 10 // default to 10
+        // slug: ['blog', '$export_file_name'], // how to generate slug for posts, default ['$category', '$export_file_name']
+        // buildIndexPage: true, // default true
+        // buildCategoryIndexPage: true, // default true
+        // metadata: ['title', 'category'], // pick the metadata you need in your custom `post` and `posts` components
+        // sortBy: [`date`], // sort posts
+        // order: `DESC`, // order for sorting
       },
     },
   ],
