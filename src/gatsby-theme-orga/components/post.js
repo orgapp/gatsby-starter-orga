@@ -11,7 +11,7 @@ export default props => {
     <Layout>
       <h1>{ title }</h1>
       <pre>{ (new Date(date)).toLocaleString() }</pre>
-      <h5>prpos</h5>
+      <h5>props</h5>
       <pre>{ print(props) }</pre>
       <div dangerouslySetInnerHTML={{ __html: body }} />
     </Layout>
