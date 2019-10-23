@@ -1,0 +1,10 @@
+#+TITLE: A Customized Post
+#+DATE: <2019-10-22 Tue>
+#+EXPORT_DATE: [2019-10-22 Tue]
+#+EXPORT_FILE_NAME: a-normal-post
+#+CATEGORY: post
+#+TAGS: customize org-mode
+
+This is a post that shows you how to customize your post.
+
+My slug is =[category]/[export_file_name]=. My date is either =date= or =export_date=.

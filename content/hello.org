@@ -1,3 +1,15 @@
+#+TITLE: Hello World
+#+DATE: <2019-10-24 Thu>
+
+This is a basic file-based post. My slug is the file path (relative to root of content folder). And I don't have a category.
+
+* How to Make this Look different
+
+Edit file =src/gatsby-theme-orga/components/post.js=. All metadata shown above is accessible to the component.
+
+Try to render the date by changing the file content to this:
+
+#+begin_src javascript
 import React from 'react'
 import Layout from '../../components/layout'
 import { inspect } from 'util'
@@ -17,3 +29,4 @@ export default props => {
     </Layout>
   )
 }
+#+end_src

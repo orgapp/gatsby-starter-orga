@@ -2,75 +2,32 @@
 #+TODO: TODO NEXT | DONE
 #+TODO: DRAFT | PUBLISHED
 
-* PUBLISHED Hello World :hello:
-CLOSED: [2019-10-14 Mon 13:34]
+* PUBLISHED A post with tags :tag1:tag2:
+CLOSED: [2019-10-23 Wed 13:34]
 
 Hi, this is the content from org-mode.
 
-Here is a code block.
+* PUBLISHED A post with a customized title
+CLOSED: [2019-10-22 Tue 19:42]
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-different-slug
+:END:
 
-#+begin_src javascript
-console.log(`hello world`)
-#+end_src
-
-
-* PUBLISHED Post 1
-CLOSED: [2019-10-14 Mon 19:42]
 
 Hi, this is the content from org-mode.
 
-* PUBLISHED Post 2
-CLOSED: [2019-10-14 Mon 19:42]
+* PUBLISHED Category Index Page
+CLOSED: [2019-10-21 Mon 19:42]
 
-Hi, this is the content from org-mode.
+Take a look at [[/posts][post index page]].
+* PUBLISHED Use a Different Category
+CLOSED: [2019-10-20 Sun 16:21]
+:PROPERTIES:
+:CATEGORY: notes
+:END:
 
-* PUBLISHED Post 3
-CLOSED: [2019-10-14 Mon 19:42]
+Look at the address of this post ☝️.
+* PUBLISHED Just use a timestamp
+[2019-10-19 Sat 16:24]
 
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 4
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 5
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 6
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 7
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 8
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 9
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 10
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 11
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
-* PUBLISHED Post 12
-CLOSED: [2019-10-14 Mon 19:42]
-
-Hi, this is the content from org-mode.
-
+It's also a legit date.
