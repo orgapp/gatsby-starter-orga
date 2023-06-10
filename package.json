@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Xiaoxing Hu <xiaoxing@huxx.org>",
   "dependencies": {
-    "gatsby": "^2.17.1",
+    "gatsby": "^4.25.7",
     "gatsby-theme-orga": "^1.8.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
